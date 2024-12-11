@@ -1,0 +1,14 @@
+
+import java.util.*;
+
+public class input
+{
+	public static void main(String[] args) {
+    //input
+    
+    scanner sc = new scanner(system.in);
+    String name  = sc.nextline();
+    
+    System.out.println(name);
+	}
+}
