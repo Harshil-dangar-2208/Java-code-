@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class simple_Array {
+    public static void main(String[] args) {
+int[] marks = new int[3];
+
+
+marks[0] = 97;  //phy
+marks[1] = 98;  //chem
+marks[2] = 95;  //eng
+
+//System.out.println("physics = "+marks[0]);
+//System.out.println("chemistry = "+marks[0]);
+//System.out.println("english = "+marks[0]);
+
+            // OR
+
+
+//loop through 
+
+
+for(int i=0;i<3;i++){
+  System.out.println(marks[i]);
+}
+  }
+}
