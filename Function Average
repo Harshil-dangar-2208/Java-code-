@@ -1,0 +1,21 @@
+
+import java.util.*;
+
+public class Functions {
+  public static int calculate_average(int a,int b,int c){
+   int avg = (a+b+c)/2;
+    return avg;
+  }
+    public static void main(String[] args) {
+      
+      Scanner Sc = new Scanner (System.in);
+      int a  = Sc.nextInt();
+      int b  = Sc.nextInt();
+      int c  = Sc.nextInt();
+
+      int avg = calculate_average(a,b,c);      
+      
+      System.out.println("Average of 3 Number = "+avg);
+  }
+  
+}
