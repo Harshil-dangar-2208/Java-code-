@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class string_compare {
+    public static void main(String[] args) {
+      //compare
+      
+      String name1 = "Harshil";
+      String name2 = "Harshil";
+      
+      
+      if(name1.compareTo(name2) == 0){
+        System.out.println("String are equal");
+      
+      }
+      else{
+        System.out.println("String are not equal");
+      }
+      
+   
+  }
+}
