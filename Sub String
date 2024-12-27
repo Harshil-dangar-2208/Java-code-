@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class substring {
+    public static void main(String[] args) {
+      //sentance mese koi bhi perticuler word print karna he to substring use hota hee
+      
+      String sentance = "My name is HarshilDangar";
+      String name = sentance.substring(11,18);  // substring me name ka starting index or ending index dena hoga
+      
+      System.out.println(name);
+      
+   
+  }
+}
