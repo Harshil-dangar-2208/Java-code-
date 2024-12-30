@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class String_Builder {
+    public static void main(String[] args) {
+      StringBuilder sc = new StringBuilder("Harshit");
+      
+      System.out.println(sc);
+      
+      //char at index 0 (0 index pr jo letter he vo print hoga)
+      System.out.println(sc.charAt(0));
+      
+      //set char at (select index pr char ko replace karne k liye)
+      
+     sc.setCharAt(6,'l');
+     System.out.println(sc);
+     
+     //insert the 0 index letter
+     
+     sc.insert(0,'D');
+     System.out.println(sc);
+     
+     //delete to the letter 
+     //First jo delete karna vo index or second next index
+     sc.delete(0,1);
+     System.out.println(sc);
+     
+     
+     
+  }
+}
