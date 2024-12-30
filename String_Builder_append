@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class String_Builder_append {
+    public static void main(String[] args) {
+      StringBuilder sc = new StringBuilder("h");
+      sc.append("e");
+      sc.append("l");
+      sc.append("l");
+      sc.append("o");
+      
+      System.out.println(sc);
+      System.out.println(sc.length());
+
+  }
+}
