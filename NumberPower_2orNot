@@ -1,0 +1,20 @@
+package harshil;
+import java.util.*;
+
+public class NumberPower_2orNot {
+public static boolean poweroftwo(int n) {
+	return n>0 && (n & (n-1)) == 0;
+}
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int number = sc.nextInt();
+		
+		if(poweroftwo(number)) {
+			System.out.println(number+" is a power of 2");
+		}else {
+			System.out.println(number+" is a not power of 2 ");
+		}
+	}
+
+}
