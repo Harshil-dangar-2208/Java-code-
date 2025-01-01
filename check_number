@@ -1,0 +1,23 @@
+package harshil;
+import java.util.*;
+public class check_number {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter your number");
+		int number = sc.nextInt();
+		if(number > 0) {
+			System.out.println("Positive Number");
+		}
+		else if(number < 0) {
+			System.out.println("Negative Number");
+		}
+		else {
+			System.out.println("Zeros Number");	
+		}
+
+	}
+
+}
