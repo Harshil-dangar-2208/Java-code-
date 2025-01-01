@@ -1,0 +1,26 @@
+package harshil;
+
+import java.util.Scanner;
+
+public class Toggle_Bit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Input the number
+        System.out.print("Enter your number: ");
+        int n = sc.nextInt();
+        
+        // Input the position of the bit to toggle (0-based index)
+        System.out.print("Enter the position: ");
+        int pos = sc.nextInt();
+        
+        // Create a mask with a 1 at the desired position
+        int mask = 1 << pos;
+        
+        // Use XOR (^) to toggle the bit at the specified position
+        n = n ^ mask;
+        
+        // Output the result
+        System.out.println("Number after toggling bit " + pos + ":- " + n);
+    }
+}
